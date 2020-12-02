@@ -1,1 +1,66 @@
-INSERT INTO movie(title) VALUES ("Jak wytresować smoka");
+INSERT INTO movie(id, title) VALUES (1001, "Jak wytresować smoka");
+INSERT INTO movie(id, title) VALUES (1002, "Wiedźmin");
+INSERT INTO movie(id, title) VALUES (1003, "Mamma Mia!");
+INSERT INTO movie(id, title) VALUES (1004, "Faceci w czerni");
+
+INSERT INTO cinema_halls (id, hall_number) VALUES (1001, 1001);
+INSERT INTO cinema_halls (id, hall_number) VALUES (1002, 1002);
+INSERT INTO cinema_halls (id, hall_number) VALUES (1003, 1003);
+
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1001, 1, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1002, 2, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1003, 3, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1004, 4, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1005, 5, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1006, 6, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1007, 7, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1008, 8, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1009, 9, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1010, 10, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1011, 11, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1012, 12, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1013, 13, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1014, 14, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1015, 15, 1001);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (1016, 16, 1001);
+
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2001, 1, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2002, 2, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2003, 3, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2004, 4, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2005, 5, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2006, 6, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2007, 7, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2008, 8, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2009, 9, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2010, 10, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2011, 11, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2012, 12, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2013, 13, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2014, 14, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2015, 15, 1002);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (2016, 16, 1002);
+
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3001, 1, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3002, 2, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3003, 3, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3004, 4, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3005, 5, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3006, 6, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3007, 7, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3008, 8, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3009, 9, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3010, 10, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3011, 11, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3012, 12, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3013, 13, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3014, 14, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3015, 15, 1003);
+INSERT INTO cinema_seats (id, seat_number, cinema_hall_id ) VALUES (3016,16, 1003);
+
+INSERT INTO screenings (id, displaytime, cinema_hall_id, movie_id ) VALUES (1001,'2020-09-13T22:30:52.123+02:00', 1001, 1001);
+INSERT INTO screenings (id, displaytime, cinema_hall_id, movie_id ) VALUES (1002,'2020-09-13T22:35:52.123+02:00', 1001, 1002);
+INSERT INTO screenings (id, displaytime, cinema_hall_id, movie_id ) VALUES (1003,'2020-09-13T22:30:52.123+02:00', 1002, 1003);
+INSERT INTO screenings (id, displaytime, cinema_hall_id, movie_id ) VALUES (1004,'2020-09-13T22:40:52.123+02:00', 1002, 1004);
+INSERT INTO screenings (id, displaytime, cinema_hall_id, movie_id ) VALUES (1005,'2020-09-13T22:45:52.123+02:00', 1003, 1001);
+INSERT INTO screenings (id, displaytime, cinema_hall_id, movie_id ) VALUES (1006,'2020-09-13T22:30:52.123+02:00', 1003, 1001);
